@@ -1,0 +1,26 @@
+import React from 'react';
+import Nabar from '../Navbar';
+import Hero from './Hero';
+import Awards from './Awards';
+import Pricing from './Pricing';
+import Stats from './Stats';
+import Education from './Education';
+import OpenAccount from '../OpenAccount';
+import Footer from '../Footer';
+
+function HomePage() {
+    return ( 
+        <>
+        <Nabar />
+        <Hero />
+        <Awards />
+        <Stats />
+        <Pricing />
+        <Education />
+        <OpenAccount />
+        <Footer/>
+        </>
+     );
+}
+
+export default HomePage;
