@@ -45,10 +45,8 @@ function Awards() {
           </div>
             <img src="media/images/pressLogos.png" alt="Press Logo" className="img-fluid mt-3" style={{width:"90%"}}/>
         </div>
-
       </div>
     </div>
   );
 }
-
 export default Awards;
