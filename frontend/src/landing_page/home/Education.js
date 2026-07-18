@@ -1,7 +1,29 @@
 import React from 'react';
 function Education() {
     return ( 
-        <h1>Education</h1>
+         <div className="container mt-5 mb-5">
+            <div className="row">
+                <div className="col-6 mt-4">
+                    <img src="media/images/education.svg" alt="education" className="img-fluid"/>
+                </div>
+                <div className="col-6">
+                    <h1 className="mb-3 mt-5 fs-2">Free and open market education</h1>
+                    <div className="row1 p-2  mb-3">
+                        <p>Varsity, the larget online stock market education book in the world covering everything from the basics to advance trading.</p>
+                        <a href=""  style={{textDecoration:"none", color:"#0080ff"}}>
+                            Versity <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                        <div className="row2 p-2 ">
+                            <p>TradingQ&A, the most active trading and investment community in India for all you makret related queries.</p>
+                            <a href=""  style={{textDecoration:"none", color:"#0080ff"}}>
+                            TradingQ&A <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                        </a>
+                        </div>    
+                </div>
+                
+            </div>
+        </div>
      );
 }
 
